@@ -36,7 +36,7 @@ config: {
          return api.sendMessage("tu hoga badk mujhe kiu bol raha 🤣", threadID);
        };
 
-       if ((event.body.toLowerCase() == "jalvanshi") || (event.body.toLowerCase() == "sahil")) {
+       if ((event.body.toLowerCase() == "suheb") || (event.body.toLowerCase() == "sahil")) {
          return api.sendMessage("Kya hua boss ko kiu bula rahe", threadID);
        };
 
@@ -44,7 +44,7 @@ config: {
          return api.sendMessage("Kya hua boss ko kiu bula rahe", threadID);
        };
 
-       if ((event.body.toLowerCase() == "karan") || (event.body.toLowerCase() == "karan jalvanshi")) {
+       if ((event.body.toLowerCase() == "suheb khan") || (event.body.toLowerCase() == "karan jalvanshi")) {
          return api.sendMessage("Kya hua boss ko kiu bula rahe", threadID);
        };
 
@@ -86,10 +86,10 @@ config: {
   
 
   if ((event.body.toLowerCase() == "Owner") || (event.body.toLowerCase() == "bot ka admin kon hai")) {
-     return api.sendMessage("️My admin [ KARAN JALVANSHI ] [FB ID :- https://www.facebook.com/Legend.king.jalvanshi", threadID, messageID);
+     return api.sendMessage("️My admin [ suheb ] [FB ID :- https://www.facebook.com/suheb.khanjii?mibextid=ZbWKwL", threadID, messageID);
    };
 
-  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
+  if (event.body.indexOf("Bott") == 0 || (event.body.toLowerCase() == "boti") || (event.body.indexOf("বট") == 0)) {
     var msg = {
       body: ` ${rand}`
     }
